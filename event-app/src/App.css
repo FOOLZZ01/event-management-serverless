@@ -1,0 +1,112 @@
+body {
+  background: #f6f8fa;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(130deg, #f6f8fa 0%, #e2e6ea 100%);
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px #0001;
+  padding: 36px 36px 24px 36px;
+  margin-top: 60px;
+  min-width: 320px;
+  max-width: 400px;
+}
+h2, h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+.input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d5dae0;
+  background: #f8fafc;
+  outline: none;
+  transition: border 0.2s;
+}
+.input:focus {
+  border: 1.5px solid #0d6efd;
+}
+.btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: #1255a2;
+}
+.btn-sm {
+  background: #e3eefa;
+  color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-weight: 500;
+  font-size: 0.98rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-sm:hover {
+  background: #cde6fa;
+}
+.btn-logout {
+  margin-top: 18px;
+  background: #eee;
+  color: #222;
+  border-radius: 8px;
+  padding: 9px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-logout:hover {
+  background: #ddd;
+}
+.link-btn {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  font-size: 1rem;
+  margin-top: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.event-form {
+  margin-bottom: 18px;
+}
+.events, .notifications {
+  margin-left: 0;
+  padding-left: 18px;
+}
+.msg {
+  margin-top: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f6f9ff;
+  color: #1976d2;
+}
+@media (max-width: 480px) {
+  .card {
+    min-width: 95vw;
+    max-width: 99vw;
+    padding: 14px;
+  }
+}
